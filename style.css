@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400; 700&family=Poppins:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+#main-header {
+  background-image: url(img/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+}
+#menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7.5rem;
+  /* background-color: #ffffff; */
+  /* border-radius: 25px; */
+  /* padding: 0.5rem 3rem; */
+  /* border: thin solid #ccc; */
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 0 0 3px #ccc;
+  font-family: "Open Sans", sans-serif;
+}
+#menu .first.logo {
+  padding-bottom: 10rem;
+}
+#menu a {
+  color: hsl(192, 100%, 9%);
+}
+.bottom-head {
+  display: flex;
+  align-items: center;
+}
+.bottom-head .main-section-items {
+  padding: 0 2.5rem;
+}
+.bottom-head .second img {
+  width: 500px;
+}
+.bottom-head .first h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.bottom-head .first p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+}
+.bottom-head .first button {
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0 3px hsl(322, 92%, 51%);
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 0.5rem 3rem;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+#main-content {
+  padding: 7.5rem 7.5rem 15rem;
+}
+#main-content .main-content {
+  display: flex;
+  align-items: center;
+  border: thin solid #ccc;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+#main-content .main-content .main-content-item {
+  padding: 2.5rem 2.5rem 2.5rem 5rem;
+}
+#main-content .main-content .main-content-2 img {
+  width: 300px;
+}
+.come {
+  flex-direction: row-reverse;
+}
+#ready .ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  border: thin solid #ccc;
+  border-radius: 0.5em;
+  width: 700px;
+  margin: 0 auto;
+  padding: 3rem;
+  margin-top: 7.5rem;
+  margin-bottom: -185px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  top: -50%;
+  left: 20%;
+}
+#ready .ready button {
+  background-color: hs1(322, 100%, 66%);
+  box-shadow: 0 e 3px hs1(322, 92%, 51%);
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 0.5rem 3rem;
+  margin-top: 1.5rem;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+#down {
+  padding: 10rem 7.5rem 3rem;
+  background-color: hs1(192, 100%, 9%);
+  position: relative;
+  z-index: -1;
+}
+footer-content {
+  display: flex;
+  margin-top: 2rem;
+}
+.footer-content .first-footer {
+  width: 35%;
+  margin-right: 7.5rem;
+}
+.footer-content .icon-text {
+  display: flex;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.footer-content .icon-text img {
+  margin-right: 1.5rem;
+}
+.footer-content .second-footer,
+.footer-content .third-footer {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.footer-content .second-footer a,
+.footer-content .third-footer a {
+  color: #ffffff;
+}
+.footer-content .fourth-footer {
+  display: flex;
+}
+.footer-content .fourth-footer img {
+  width: 40px;
+}
+#down .copyright {
+  text-align: right;
+  color: #ffffff;
+}
